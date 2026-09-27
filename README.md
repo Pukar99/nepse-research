@@ -3,8 +3,9 @@
 My 90-day build (Sep 29 → Dec 28, 2026): **statistics, data science, backend, LLMs and research**, all learned by building
 one project on real NEPSE and XAUUSD market data.
 
-Every track feeds the same goal: a transformer forecasting study on NEPSE, tested fairly against simple baselines,
-written up as a paper, served by an API, and explained by a fine-tuned LLM.
+This repo is the **practice gym**. The real project is **[NEPSE Sentinel](https://github.com/Pukar99/nepse-sentinel)**
+(self-supervised detection of trade-based manipulation on NEPSE): the course's practice builds its baselines and its
+transformer stream, written up as a paper, served by an API, and explained by a fine-tuned LLM.
 
 > Not financial advice. This is research and engineering, not trading signals.
 
@@ -13,11 +14,11 @@ written up as a paper, served by an API, and explained by a fine-tuned LLM.
 | Week | Dates | Theme | Status |
 |---|---|---|---|
 | [1](weeks/week-01.md) | Sep 29 – Oct 5 | Returns, fat tails, FastAPI, transformer basics | 🟡 in progress |
-| 2 | Oct 6 – Oct 12 | Probability, bootstrap, EDA, a GPT built from scratch | ⬜ |
-| 3 | Oct 13 – Oct 19 | Hypothesis tests, first baselines, CI | ⬜ |
-| 4 | Oct 20 – Oct 26 | Regression, walk-forward, XGBoost | ⬜ |
-| 5–9 | Oct 27 – Nov 30 | Build: time series, transformer, RAG, QLoRA | ⬜ |
-| 10–13 | Dec 1 – Dec 28 | Ship: backtest, dashboard, papers, launch | ⬜ |
+| 2 | Oct 6 – Oct 12 | Z-scores, abnormal volume, a GPT built from scratch | ⬜ |
+| 3 | Oct 13 – Oct 19 | Hypothesis tests, Sentinel rule baseline (HHI), CI | ⬜ |
+| 4 | Oct 20 – Oct 26 | Regression, Isolation Forest, SEBON cases | ⬜ |
+| 5–9 | Oct 27 – Nov 30 | Build: Sentinel's transformer stream, RAG, QLoRA | ⬜ |
+| 10–13 | Dec 1 – Dec 28 | Ship: Sentinel dashboard, two papers, launch | ⬜ |
 
 The full plan is in [ROADMAP.md](ROADMAP.md). Each week gets its own file in [`weeks/`](weeks/) with day-by-day tasks.
 
